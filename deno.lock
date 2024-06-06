@@ -60,9 +60,6 @@
   },
   "remote": {},
   "workspace": {
-    "dependencies": [
-      "jsr:@std/assert@0.226.0"
-    ],
     "packageJson": {
       "dependencies": [
         "npm:@stablelib/binary@^1.0.1",

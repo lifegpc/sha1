@@ -1,5 +1,5 @@
 import { HmacSHA1, sha1 } from "./mod.ts";
-import { assertEquals } from "@std/assert";
+import { assertEquals } from "jsr:/@std/assert@0.226.0";
 
 Deno.test("test_sha1", () => {
     assertEquals(sha1(""), "da39a3ee5e6b4b0d3255bfef95601890afd80709");
