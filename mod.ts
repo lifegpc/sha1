@@ -11,7 +11,7 @@ export class SHA1 implements SerializableHash {
     readonly digestLength: number = DIGEST_LENGTH;
     readonly blockSize: number = BLOCK_SIZE;
 
-    protected _state = new Int32Array(5);
+    protected _state: Int32Array = new Int32Array(5);
     private _temp = new Int32Array(80);
     private _buffer = new Uint8Array(128);
     private _bufferLength = 0;
