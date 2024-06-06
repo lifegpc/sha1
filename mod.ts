@@ -1,8 +1,8 @@
-import type { SerializableHash } from "npm:@stablelib/hash";
-import { readUint32BE, writeUint32BE } from "npm:@stablelib/binary";
-import { wipe } from "npm:@stablelib/wipe";
-import { hmac } from "npm:@stablelib/hmac";
-import arrayBufferToHex from "npm:array-buffer-to-hex";
+import type { SerializableHash } from "npm:@stablelib/hash@1.0.1";
+import { readUint32BE, writeUint32BE } from "npm:@stablelib/binary@1.0.1";
+import { wipe } from "npm:@stablelib/wipe@1.0.1";
+import { hmac } from "npm:@stablelib/hmac@1.0.1";
+import arrayBufferToHex from "npm:array-buffer-to-hex@1.0.0";
 
 export const DIGEST_LENGTH = 20;
 export const BLOCK_SIZE = 64;
