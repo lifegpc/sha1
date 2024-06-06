@@ -1,0 +1,9 @@
+{
+    "dependencies": {
+        "@stablelib/binary": "^1.0.1",
+        "@stablelib/hash": "^1.0.1",
+        "@stablelib/hmac": "^1.0.1",
+        "@stablelib/wipe": "^1.0.1",
+        "array-buffer-to-hex": "^1.0.0"
+    }
+}

@@ -1,0 +1,76 @@
+{
+  "version": "3",
+  "packages": {
+    "specifiers": {
+      "jsr:@std/assert@0.226.0": "jsr:@std/assert@0.226.0",
+      "jsr:@std/internal@^1.0.0": "jsr:@std/internal@1.0.0",
+      "npm:@stablelib/binary": "npm:@stablelib/binary@1.0.1",
+      "npm:@stablelib/hash": "npm:@stablelib/hash@1.0.1",
+      "npm:@stablelib/hmac": "npm:@stablelib/hmac@1.0.1",
+      "npm:@stablelib/wipe": "npm:@stablelib/wipe@1.0.1",
+      "npm:array-buffer-to-hex": "npm:array-buffer-to-hex@1.0.0"
+    },
+    "jsr": {
+      "@std/assert@0.226.0": {
+        "integrity": "0dfb5f7c7723c18cec118e080fec76ce15b4c31154b15ad2bd74822603ef75b3",
+        "dependencies": [
+          "jsr:@std/internal@^1.0.0"
+        ]
+      },
+      "@std/internal@1.0.0": {
+        "integrity": "ac6a6dfebf838582c4b4f61a6907374e27e05bedb6ce276e0f1608fe84e7cd9a"
+      }
+    },
+    "npm": {
+      "@stablelib/binary@1.0.1": {
+        "integrity": "sha512-ClJWvmL6UBM/wjkvv/7m5VP3GMr9t0osr4yVgLZsLCOz4hGN9gIAFEqnJ0TsSMAN+n840nf2cHZnA5/KFqHC7Q==",
+        "dependencies": {
+          "@stablelib/int": "@stablelib/int@1.0.1"
+        }
+      },
+      "@stablelib/constant-time@1.0.1": {
+        "integrity": "sha512-tNOs3uD0vSJcK6z1fvef4Y+buN7DXhzHDPqRLSXUel1UfqMB1PWNsnnAezrKfEwTLpN0cGH2p9NNjs6IqeD0eg==",
+        "dependencies": {}
+      },
+      "@stablelib/hash@1.0.1": {
+        "integrity": "sha512-eTPJc/stDkdtOcrNMZ6mcMK1e6yBbqRBaNW55XA1jU8w/7QdnCF0CmMmOD1m7VSkBR44PWrMHU2l6r8YEQHMgg==",
+        "dependencies": {}
+      },
+      "@stablelib/hmac@1.0.1": {
+        "integrity": "sha512-V2APD9NSnhVpV/QMYgCVMIYKiYG6LSqw1S65wxVoirhU/51ACio6D4yDVSwMzuTJXWZoVHbDdINioBwKy5kVmA==",
+        "dependencies": {
+          "@stablelib/constant-time": "@stablelib/constant-time@1.0.1",
+          "@stablelib/hash": "@stablelib/hash@1.0.1",
+          "@stablelib/wipe": "@stablelib/wipe@1.0.1"
+        }
+      },
+      "@stablelib/int@1.0.1": {
+        "integrity": "sha512-byr69X/sDtDiIjIV6m4roLVWnNNlRGzsvxw+agj8CIEazqWGOQp2dTYgQhtyVXV9wpO6WyXRQUzLV/JRNumT2w==",
+        "dependencies": {}
+      },
+      "@stablelib/wipe@1.0.1": {
+        "integrity": "sha512-WfqfX/eXGiAd3RJe4VU2snh/ZPwtSjLG4ynQ/vYzvghTh7dHFcI1wl+nrkWG6lGhukOxOsUHfv8dUXr58D0ayg==",
+        "dependencies": {}
+      },
+      "array-buffer-to-hex@1.0.0": {
+        "integrity": "sha512-arycdkxgK1cj6s03GDb96tlCxOl1n3kg9M2OHseUc6Pqyqp+lgfceFPmG507eI5V+oxOSEnlOw/dFc7LXBXF4Q==",
+        "dependencies": {}
+      }
+    }
+  },
+  "remote": {},
+  "workspace": {
+    "dependencies": [
+      "jsr:@std/assert@0.226.0"
+    ],
+    "packageJson": {
+      "dependencies": [
+        "npm:@stablelib/binary@^1.0.1",
+        "npm:@stablelib/hash@^1.0.1",
+        "npm:@stablelib/hmac@^1.0.1",
+        "npm:@stablelib/wipe@^1.0.1",
+        "npm:array-buffer-to-hex@^1.0.0"
+      ]
+    }
+  }
+}
